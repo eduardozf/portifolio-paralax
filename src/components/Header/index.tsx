@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import LogoSvg from "../../../public/assets/logo.svg";
 import HeaderButton from "../HeaderButton/index";
 
 const Header = () => {
@@ -9,7 +8,12 @@ const Header = () => {
     <header className="w-full p-[55px] flex flex-row justify-between align-middle absolute inset-x-0 z-20">
       <div>
         <Link href="#">
-          <Image src={LogoSvg} alt="Blue Macaw Logo"></Image>
+          <Image
+            src="/assets/logo.svg"
+            height={128}
+            width={128}
+            alt="Blue Macaw Logo"
+          ></Image>
         </Link>
       </div>
       <div className="flex gap-10 ">
@@ -22,7 +26,7 @@ const Header = () => {
         />
         <HeaderButton
           text="GITHUB"
-          to="https://github.com/eduardozf"
+          to="https://github.com/eduardozf/portifolio-paralax"
           openNewTab
         />
         {/* TODO Select language */}
