@@ -3,6 +3,7 @@
 # Reference images
 /references/*
 !/references/*.md
+!/references/*.gif
 
 # dependencies
 /node_modules
