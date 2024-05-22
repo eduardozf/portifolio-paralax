@@ -9,7 +9,7 @@ const Header = () => {
       <div>
         <Link href="#">
           <Image
-            src="/assets/logo.svg"
+            src="/assets/Logo.svg"
             height={128}
             width={128}
             alt="Blue Macaw Logo"
