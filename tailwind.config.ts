@@ -37,7 +37,7 @@ const config: Config = {
         smoothT: "500ms",
       },
       transitionTimingFunction: {
-        smoothT: "ease-in-out",
+        smoothT: "ease-in",
       },
       animation: {
         walk: "walk linear 30s infinite",

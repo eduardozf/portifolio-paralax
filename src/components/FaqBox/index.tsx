@@ -19,67 +19,63 @@ export default function FaqSection() {
 
   const questions: QuestionType[] = [
     {
-      question: "Lorem ipsum dolor sit amet",
+      question: "What is the Amazon Rainforest and why is it important?",
       response: (
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet
-          orci sodales nunc pretium, ut pulvinar ex maximus. Nulla facilisi.
-          Orci varius natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Morbi non viverra risus. Praesent condimentum
-          finibus magna, cursus viverra dolor dapibus a. Vivamus dui risus,
-          feugiat sit amet nisi sed, imperdiet aliquet elit.
+          The Amazon Rainforest is the largest tropical rainforest in the world,
+          covering over 5.5 million square kilometers. It is crucial for
+          regulating the Earth&apos;s climate, producing oxygen, and hosting a
+          vast biodiversity, including many species that are not found anywhere
+          else in the world. It also plays a vital role in the culture and
+          livelihoods of indigenous peoples.
         </>
       ),
     },
     {
-      question: "Lorem ipsum dolor sit amet",
+      question: "What are some unique animals found in Brazil?",
       response: (
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet
-          orci sodales nunc pretium, ut pulvinar ex maximus. Nulla facilisi.
-          Orci varius natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Morbi non viverra risus. Praesent condimentum
-          finibus magna, cursus viverra dolor dapibus a. Vivamus dui risus,
-          feugiat sit amet nisi sed, imperdiet aliquet elit.
+          Brazil is home to a diverse range of unique animals, including the
+          jaguar, capybara, sloth, giant anteater, and the pink river dolphin.
+          The Amazon Rainforest, Pantanal, and Atlantic Forest are just a few of
+          the regions where these animals can be found.
         </>
       ),
     },
     {
-      question: "Lorem ipsum dolor sit amet",
+      question: "What are some traditional Brazilian foods?",
       response: (
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet
-          orci sodales nunc pretium, ut pulvinar ex maximus. Nulla facilisi.
-          Orci varius natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Morbi non viverra risus. Praesent condimentum
-          finibus magna, cursus viverra dolor dapibus a. Vivamus dui risus,
-          feugiat sit amet nisi sed, imperdiet aliquet elit.
+          Brazilian cuisine is diverse and flavorful. Some traditional dishes
+          include feijoada (a black bean stew with pork), pão de queijo (cheese
+          bread), acarajé (deep-fried balls of black-eyed pea dough filled with
+          shrimp), and brigadeiro (a type of chocolate truffle). Each region in
+          Brazil has its own culinary specialties that reflect its cultural
+          heritage.
         </>
       ),
     },
     {
-      question: "Lorem ipsum dolor sit amet",
+      question: "What is Brazil known for internationally?",
       response: (
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet
-          orci sodales nunc pretium, ut pulvinar ex maximus. Nulla facilisi.
-          Orci varius natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Morbi non viverra risus. Praesent condimentum
-          finibus magna, cursus viverra dolor dapibus a. Vivamus dui risus,
-          feugiat sit amet nisi sed, imperdiet aliquet elit.
+          Brazil is renowned for its vibrant culture, diverse ecosystems, and
+          significant contributions to music and sports. Internationally, it is
+          famous for the Amazon Rainforest, the annual Carnival festival, its
+          rich musical heritage including samba and bossa nova, and its success
+          in soccer, being home to legendary players like Pelé and Neymar.
         </>
       ),
     },
     {
-      question: "Lorem ipsum dolor sit amet",
+      question: "What is Carnival in Brazil and when is it celebrated?",
       response: (
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet
-          orci sodales nunc pretium, ut pulvinar ex maximus. Nulla facilisi.
-          Orci varius natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Morbi non viverra risus. Praesent condimentum
-          finibus magna, cursus viverra dolor dapibus a. Vivamus dui risus,
-          feugiat sit amet nisi sed, imperdiet aliquet elit.
+          Carnival is a major festival in Brazil known for its vibrant parades,
+          music, dance, and elaborate costumes. It typically takes place in
+          February or March, starting on the Friday before Ash Wednesday and
+          ending on Ash Wednesday itself. The most famous Carnival celebrations
+          occur in Rio de Janeiro, São Paulo, and Salvador.
         </>
       ),
     },
@@ -118,7 +114,7 @@ const FaqQuestion = ({
           expanded ? "text-green" : "text-gray-600 "
         }`}
       >
-        <h1 className={`${expanded ? "text-lg font-bold" : "text-md"}`}>
+        <h1 className={`${expanded ? "text-[1.3rem] font-bold" : "text-md"}`}>
           {question}
         </h1>
 
@@ -133,7 +129,7 @@ const FaqQuestion = ({
         />
       </div>
       <span
-        className={`text-justify text-sm font-light transition-transform ease-in-out duration-1000 ${
+        className={`text-black text-justify text-sm font-light transition-transform ease-in-out duration-1000 ${
           expanded ? "block" : "hidden"
         }`}
       >

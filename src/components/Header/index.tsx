@@ -17,8 +17,8 @@ const Header = () => {
         </Link>
       </div>
       <div className="flex gap-10 ">
-        <HeaderButton text="Home" to="#" />
         <HeaderButton text="FAQ" to="#faq" />
+
         <HeaderButton
           text="LINKEDIN"
           to="https://www.linkedin.com/in/eduardozf1"
@@ -29,8 +29,6 @@ const Header = () => {
           to="https://github.com/eduardozf/portifolio-paralax"
           openNewTab
         />
-        {/* TODO Select language */}
-        <HeaderButton text="LANGUAGE" to="/" />
       </div>
     </header>
   );

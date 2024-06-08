@@ -1,6 +1,5 @@
 import Image from "next/image";
 import FaqSection from "../FaqBox";
-import WalkingAnt from "../Animations/Ant";
 import FallingLeafs from "../Animations/FallingLeafs";
 import SideLeaf from "../Animations/SideLeaft";
 
@@ -43,8 +42,8 @@ const FaqHeader = () => (
       Frequently Asked Questions
     </h1>
     <h3 className="w-[530px] text-center text-gray-500 text-md font-light">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet orci
-      sodales nunc pretium, ut pulvinar ex maximus.
+      Explore the Rich History, Diverse Wildlife, and Vibrant Culture of Brazil
+      Through These Common Inquiries
     </h3>
   </div>
 );

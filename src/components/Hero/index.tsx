@@ -12,6 +12,13 @@ const HeroSection = () => {
   const handleScroll = () => {
     const scrollY = window?.scrollY;
 
+    if (
+      !farBGRef?.current?.style ||
+      !nearBGRef?.current?.style ||
+      !nearestBGRef?.current?.style
+    )
+      return;
+
     farBGRef.current.style.backgroundPositionY = `${scrollY * 0.4}px`;
     nearBGRef.current.style.transform = `translateY(${scrollY * 0.8}px)`;
     nearestBGRef.current.style.transform = `translateY(${scrollY * 2}px)`;
@@ -30,7 +37,7 @@ const HeroSection = () => {
         <div className="h-fit relative py-[20px] px-[55px]">
           <div className="bg-extra-blur absolute inset-0 rounded-full backdrop-blur-sm z-0"></div>
           <h1 className="font-passionOne text-xxl uppercase relative z-10 leading-none">
-            Web development inspired by Brazil
+            Web development inspired in Brazil
           </h1>
           <p className="text-lg font-light text-justify w-[920px] uppercase relative z-10 leading-tight">
             Websites that capture the colorful and vibrant essence of this land
@@ -59,6 +66,7 @@ const HeroSection = () => {
           ref={nearestBGRef}
         />
       </div>
+      <div className="mouse absolute scale-50 bottom-0 left-[50%] -translate-x-[50%] z-10 pointer-events-none"></div>
     </section>
   );
 };
