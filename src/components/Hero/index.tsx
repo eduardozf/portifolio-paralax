@@ -34,12 +34,15 @@ const HeroSection = () => {
     >
       <Header />
       <div className="w-fit h-screen text-white flex items-center">
-        <div className="h-fit relative py-[20px] px-[55px]">
+        <div
+          className="h-fit relative lg:py-[15px] lg:px-[35px] 2xl:py-[20px]
+2xl:px-[55px]"
+        >
           <div className="bg-extra-blur absolute inset-0 rounded-full backdrop-blur-sm z-0"></div>
-          <h1 className="font-passionOne text-xxl uppercase relative z-10 leading-none">
+          <h1 className="font-passionOne lg:text-xl 2xl:text-xxl uppercase relative z-10 leading-none">
             Web development inspired in Brazil
           </h1>
-          <p className="text-lg font-light text-justify w-[920px] uppercase relative z-10 leading-tight">
+          <p className="lg:text-md 2xl:text-lg font-light text-justify lg:w-[610px] 2xl:w-[920px] uppercase relative z-10 leading-tight">
             Websites that capture the colorful and vibrant essence of this land
             of enchantment and diversity, inviting the world to explore your
             unique brand.
@@ -53,7 +56,7 @@ const HeroSection = () => {
           width={1374}
           alt="Background Image"
           quality={100}
-          className="absolute right-0 bottom-0 w-auto h-[365px] pointer-events-none transition-smoothT duration-smoothT ease-smoothT"
+          className="absolute right-0 bottom-0 w-auto lg:h-[260px] 2xl:h-[365px] pointer-events-none transition-smoothT duration-smoothT ease-smoothT"
           ref={nearBGRef}
         />
         <Image
@@ -62,11 +65,11 @@ const HeroSection = () => {
           width={1028}
           alt="Macaw Image"
           quality={100}
-          className="absolute right-0 bottom-0 w-auto h-[888px] pointer-events-none transition-smoothT duration-smoothT ease-smoothT"
+          className="absolute right-0 bottom-0 w-auto lg:h-[600px] 2xl:h-[888px] pointer-events-none transition-smoothT duration-smoothT ease-smoothT"
           ref={nearestBGRef}
         />
       </div>
-      <div className="mouse absolute scale-50 bottom-0 left-[50%] -translate-x-[50%] z-10 pointer-events-none"></div>
+      <div className="mouse absolute lg:scale-[40%] 2xl:scale-50 lg:-bottom-4 2xl:bottom-0 left-[50%] -translate-x-[50%] z-10 pointer-events-none"></div>
     </section>
   );
 };

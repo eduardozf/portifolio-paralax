@@ -5,7 +5,7 @@ import HeaderButton from "../HeaderButton/index";
 
 const Header = () => {
   return (
-    <header className="w-full p-[55px] flex flex-row justify-between align-middle absolute inset-x-0 z-20">
+    <header className="w-full  lg:p-[35px] 2xl:p-[55px] flex flex-row justify-between align-middle absolute inset-x-0 z-20">
       <div>
         <Link href="#">
           <Image
@@ -13,6 +13,7 @@ const Header = () => {
             height={128}
             width={128}
             alt="Blue Macaw Logo"
+            className="lg:h-[100px] lg:w-[100px] 2xl:h-[128px] 2xl:w-[128px]"
           ></Image>
         </Link>
       </div>

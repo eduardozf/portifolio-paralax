@@ -82,7 +82,7 @@ export default function FaqSection() {
   ];
 
   return (
-    <main className="pl-[115px] w-[670px] pb-[75px]">
+    <main className="lg:pl-10 2xl:pl-[115px] w-[670px] pb-[75px]">
       {questions?.map((it, index) => (
         <FaqQuestion
           question={it.question}

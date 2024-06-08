@@ -28,7 +28,7 @@ const SideLeaf = () => {
         height={253}
         width={194}
         quality={100}
-        className="absolute -right-32 -bottom-24 w-auto h-[400px] origin-[70%_100%]"
+        className="absolute lg:-right-24 lg:-bottom-20 2xl:-right-32 2xl:-bottom-24 w-auto lg:h-[300px] 2xl:h-[400px] origin-[70%_100%]"
       />
     </div>
   );

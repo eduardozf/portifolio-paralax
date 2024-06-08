@@ -14,16 +14,16 @@ const FAQSection = () => {
       <main className=" flex flex-col gap-[45px] bg-white w-full min-h-full rounded-xl relative bg-lines bg-contain bg-no-repeat bg-right">
         <FaqHeader />
         <div className="flex flex-1">
-          <div className="w-1/2">
+          <div className="2xl:w-1/2">
             <FaqSection></FaqSection>
           </div>
-          <div className="w-1/2 pl-6 -translate-y-11 pointer-events-none ">
+          <div className="2xl:w-1/2 lg:px-8 2xl:pl-6 2xl:-translate-y-11 pointer-events-none ">
             <Image
               alt="Sloth Image"
               src="/assets/sloth.webp"
               width={783}
               height={545}
-              className="w-auto h-[450px] pointer-events-none"
+              className="lg:h-auto 2xl:w-auto 2xl:h-[450px] pointer-events-none"
               quality={100}
             ></Image>
           </div>
@@ -38,10 +38,10 @@ const FAQSection = () => {
 
 const FaqHeader = () => (
   <div className="flex flex-col justify-center items-center pt-[75px]">
-    <h1 className="text-xl font-bold text-green-d">
+    <h1 className="lg:text-[1.9rem] 2xl:text-xl font-bold text-green-d">
       Frequently Asked Questions
     </h1>
-    <h3 className="w-[530px] text-center text-gray-500 text-md font-light">
+    <h3 className="lg:w-[370px] 2xl:w-[530px] text-center text-gray-500 lg:text-sm 2xl:text-md font-light">
       Explore the Rich History, Diverse Wildlife, and Vibrant Culture of Brazil
       Through These Common Inquiries
     </h3>
