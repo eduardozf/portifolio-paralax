@@ -11,10 +11,10 @@ I also wanted to implement a parallax animation along with the scroll, as I've a
 Despite having only two sections, I believe I achieved a satisfactory result. I hope you like it.
 
 - [Preview Page](https://portifolio-paralax.vercel.app/)
-- [Preview Video](https://youtu.be/FO5Dl_HZrOY)
+- [Preview Video](https://youtu.be/r3z2K7Izrtk)
 
 <p align="left">
-  <img src="references/exemple.gif" width="100%" height="auto"/>
+  <img src="references/exemple.gif" width="70%" height="auto"/>
 </p>
 
 ## Technologies Used
